@@ -1,0 +1,20 @@
+body {
+    background-color: #fff8dc;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+hr {
+    height: 3px;
+    background-color: blue;
+    border: none;
+}
+
+p {
+    text-align: justify;
+    font-family: Georgia, serif;
+    font-size: 18px
+}

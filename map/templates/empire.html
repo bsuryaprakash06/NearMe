@@ -1,0 +1,24 @@
+{% load static %}
+<html>
+
+<head>
+    <title>Empire State Building</title>
+</head>
+
+<body style="background-color: #fff8dc; font-family: Georgia, serif; padding: 20px;">
+    <h1 style="text-align: center; color: darkblue;">Empire State Building</h1>
+    <hr style="height: 3px; background-color: blue; border: none;">
+
+    <img src="{% static 'images/emp.jpg' %}" alt="Empire State Building"
+        style="float: left; width: 200px; height: auto; border: 2px solid black; border-radius: 5px; margin-right: 20px;">
+
+    <p style="text-align: right; font-size: 18px; width: calc(100% - 220px);">
+        The Empire State Building is a 102-story Art Deco skyscraper located in Midtown Manhattan.
+        Completed in 1931, it was the tallest building in the world for nearly 40 years.
+        It remains a major tourist attraction with observation decks on the 86th and 102nd floors,
+        offering panoramic views of New York City. The building is known for its iconic spire and colorful lighting
+        displays at night.
+    </p>
+</body>
+
+</html>

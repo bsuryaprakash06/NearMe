@@ -1,0 +1,49 @@
+body {
+    background-color: #fff8dc;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+hr {
+    height: 3px;
+    background-color: blue;
+    border: none;
+}
+
+img {
+    float: left;
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+p {
+    text-align: auto;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    width: calc(100%-220px);
+    margin-left: 20px;
+}
+
+
+.img {
+    width: 400px;
+    height: 200px;
+}
+
+.h1 {
+    color: darkgreen;
+}
+
+.hr {
+    background-color: green;
+}
+
+.body {
+    background-color: #e0ffe0;
+}

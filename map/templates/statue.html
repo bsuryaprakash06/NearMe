@@ -1,0 +1,23 @@
+{% load static %}
+<html>
+
+<head>
+    <title>Statue of Liberty</title>
+</head>
+
+<body style="background-color: #e6f2ff; font-family: Georgia, serif; padding: 20px;">
+    <h1 style="text-align: center; color: darkgreen;">Statue of Liberty</h1>
+    <hr style="height: 3px; background-color: green; border: none;">
+
+    <img src="{% static 'images/stl.jpg' %}" alt="Statue of Liberty"
+        style="float: left; width: 200px; height: auto; border: 2px solid green; border-radius: 5px; margin-right: 20px;">
+
+    <p style="text-align: right; font-size: 18px; width: calc(100% - 220px);">
+        The Statue of Liberty is one of the most iconic symbols of freedom and democracy in the world.
+        Located on Liberty Island in New York Harbor, it was a gift from France to the United States in 1886.
+        The statue was designed by Frédéric Auguste Bartholdi, with its internal structure built by Gustave Eiffel.
+        The torch represents enlightenment, and the crown's seven spikes symbolize the seven continents and oceans.
+    </p>
+</body>
+
+</html>

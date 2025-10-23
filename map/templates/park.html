@@ -1,0 +1,24 @@
+{% load static %}
+<html>
+
+<head>
+    <title>Central Park</title>
+</head>
+
+<body style="background-color: #e0ffe0; font-family: Georgia, serif; padding: 20px;">
+    <h1 style="text-align: center; color: forestgreen;">Central Park</h1>
+    <hr style="height: 3px; background-color: green; border: none;">
+
+    <img src="{% static 'images/cnt.jpg' %}" alt="Central Park"
+        style="float: left; width: 200px; height: auto; border: 2px solid forestgreen; border-radius: 5px; margin-right: 20px;">
+
+    <p style="text-align: right; font-size: 18px; width: calc(100% - 220px);">
+        Central Park is a large public park in the heart of Manhattan, stretching over 840 acres.
+        It offers a peaceful escape from the city's hustle with scenic walking paths, lakes, gardens, and cultural
+        attractions.
+        The park includes landmarks like Bethesda Terrace, the Central Park Zoo, and the Great Lawn.
+        It is a popular spot for walking, jogging, boating, and hosting concerts and events throughout the year.
+    </p>
+</body>
+
+</html>

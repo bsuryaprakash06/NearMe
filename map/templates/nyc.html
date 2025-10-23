@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Explore Manhattan</title>
+</head>
+
+<body bgcolor="#f0f8ff">
+
+    <h1 align="center" style="color: navy;">Explore Manhattan</h1>
+    <h3 align="center" style="color: darkred;">Interactive Tourist Map</h3>
+
+    <center>
+        <!-- Image with clickable areas -->
+        <img src="{% static 'images/nyc.png' %}" usemap="#manhattanmap" width="1400" height="800">
+
+        <map name="manhattanmap">
+
+            <area shape="circle" coords="150,450,25" href="{% url 'statue' %}" title="Statue of Liberty">
+
+            <!-- 🏙 Empire State Building -->
+            <area shape="rect" coords="340,200,380,260" href="{% url 'empire' %}" title="Empire State Building">
+
+            <!-- 🎭 Times Square -->
+            <area shape="circle" coords="360,180,20" href="{% url 'times' %}" title="Times Square">
+
+            <!-- 🌳 Central Park -->
+            <area shape="rect" coords="280,60,500,130" href="{% url 'park' %}" title="Central Park">
+        </map>
+    </center>
+
+</body>
+
+</html>
